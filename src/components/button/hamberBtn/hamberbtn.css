@@ -1,0 +1,30 @@
+.HamberBtn{
+    width: fit-content;
+    height: 2em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:20px 15px;
+}
+
+.HamberBtn div{
+    width: 3em;
+    height: 0.3em;
+    background-color: #ccc;
+    position: relative;
+    border-radius: 10px;
+    
+}
+
+ .HamberBtn div::after{
+    width: 3em;
+    border-radius: 10px;
+    content: '';
+    background-color: #ccc;
+    position: absolute;
+    left: 0px;
+    top: -10px;
+    height: 3px;
+}
+

@@ -1,0 +1,8 @@
+.slideSpot{
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px auto;
+    margin-top: 100px;
+}

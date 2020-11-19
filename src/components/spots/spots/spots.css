@@ -1,0 +1,15 @@
+.spot{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #ccc;
+    cursor: pointer;
+    outline: none;
+}
+
+.active{
+    width: 15px;
+    height: 10px;
+    border-radius: 100px;
+    background-color: lightskyblue;
+}

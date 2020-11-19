@@ -1,0 +1,111 @@
+.managePalete{
+    width: 100%;
+    background-color: #191933;
+    box-sizing: border-box;
+}
+
+.managePalete--container{
+    width: 70%;
+    position: relative;
+    padding: 70px 0px;
+    margin: 0 auto;
+}
+
+.managePalete--head{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 10px;
+    width: 100%;
+    background: linear-gradient(to right ,#ffd600 20%, #ef895d 20% 40%, #cb2478 40% 60%, #24cbc7 60% 80%, #5557ec 80% 10%);
+}
+
+.managePalete_paragraph{
+    color: #bbb;
+    margin: 5px 0;
+    font-weight: 100;
+}
+
+.managePalete_paragraph:nth-of-type(1){
+    margin-top: 35px;
+}
+
+.managePalete-paletes{
+    width: 100%;
+    margin-top: 30px;
+    display: grid;
+    grid-template-rows: repeat(3,140px);
+    grid-template-columns: repeat(2,1.5fr)  repeat(2,1fr);
+    grid-gap: 12px;
+}
+
+.managePalete-palete{
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.managePalete-palete--1{
+    grid-column: 1/3;
+    grid-row: 1/3;
+    background-color: #905dff;
+    color: #ff5dfa;
+}
+
+.managePalete-palete--2{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background-color: #0099ff;
+    color: #00ffa2;
+}
+
+.managePalete-palete--3{
+    grid-column: 4/5;
+    grid-row: 1/2;
+    background-color: #ffcc00;
+    color: #ff6f00;
+}
+
+.managePalete-palete--4{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    background-color: #e93160;
+    color: #ffcc00;
+}
+
+.managePalete-palete--5{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    background-color: #fff;
+    color: #000;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.managePalete-palete--5 h3{
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.managePalete-palete--5 p{
+    font-weight: 100;
+}
+
+.managePalete-palete--6{
+    grid-column: 3/5;
+    grid-row: 2/4;
+    background-color: #24cbc7;
+    color: #2467cb;
+}

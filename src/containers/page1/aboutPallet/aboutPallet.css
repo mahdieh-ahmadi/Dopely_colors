@@ -1,0 +1,43 @@
+.aboutPallet{
+    margin-top: 100px;
+    width: 75vw;
+}
+
+.abourpallet__header{
+    width: 70%;
+}
+
+.abourpallet__header p{
+    font-size: 12px;
+    padding: 0;
+    margin: 8px 0;
+}
+
+.aboutpallet_paragrapg{
+    padding-top: 18px;
+}
+
+.coler_pollet_generation{
+    position: relative;
+    width: 100%;
+    padding: 60px 45px 20px 45px;
+    background-color: #eee;
+    margin-top: -20px;
+    box-sizing: border-box;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    z-index: -1;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+
+.coler_pollet_generation--head{
+    font-size: 18px;
+}
+
+.coler_pollet_generation--paragraph{
+    width: 50%;
+    color: #666;
+    font-size: 14px;
+    font-weight: 100;
+}

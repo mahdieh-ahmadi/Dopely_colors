@@ -1,0 +1,33 @@
+.pallet{
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 30px;
+    background-color: #fff;
+    box-shadow: 0 25px 50px #aaa;
+    border-radius: 20px;
+    z-index: 10000;
+}
+
+.pallet_nav{
+    font-size: 7px;
+}
+
+.pallet__colors{
+    display: flex;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 100px 10px;
+}
+
+.pallet__colors--item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+}

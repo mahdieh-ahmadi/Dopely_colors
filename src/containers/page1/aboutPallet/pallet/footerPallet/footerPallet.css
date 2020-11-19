@@ -1,0 +1,17 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    flex-direction: row-reverse;
+    padding: 10px 20px;
+}
+
+.footer_big-icon{
+    display: flex;
+}
+
+.footer_small-icon{
+    display: flex;
+}
+
