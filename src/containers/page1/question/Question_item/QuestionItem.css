@@ -1,0 +1,32 @@
+.QuestionItem{
+    width: 400px;
+    position: relative;
+}
+
+.QuestionItem h3{
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.QuestionItem p{
+    color: #aaa;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.QuestionItem div{
+    color: #17b7b3;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.QuestionItem__line{
+    position: absolute;
+    top: 12px;
+    left: -10px;
+    width: 5px;
+    height: 23px;
+    background-color: #ccc;
+    border-radius: 5px;
+}

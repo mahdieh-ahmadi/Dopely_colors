@@ -4,6 +4,7 @@ import Head from './headPage1/Head'
 import AboutPallet from './aboutPallet/aboutPallet'
 import ManagePalete from './managePalete/managePlete'
 import Endless from './EnlessColor/EndlessColor'
+import Question from './question/question'
 
 import './page1.css'
 
@@ -15,6 +16,7 @@ const Page1 = () => {
         <AboutPallet />
         <ManagePalete />
         <Endless />
+        <Question />
     </div>
 }
 
