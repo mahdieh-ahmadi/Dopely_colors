@@ -1,12 +1,15 @@
 .footer{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
+    align-items: center;
     margin-bottom: 30px;
 }
 
 .footer_detail{
     width: 1000px;
     display: flex;
+    flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-between;
 }
@@ -17,6 +20,30 @@
 
 @media(max-width : 1080px){
     .footer_detail{
-        max-width: 800px;
+        width: 800px;
     }
+
 }
+
+@media(max-width : 860px){
+    .footer_detail{
+        width: 600px;
+    }
+
+}
+
+@media(max-width : 640px){
+    .footer_detail{
+        width: 400px;
+    }
+
+}
+
+@media(max-width : 440px){
+    .footer_detail{
+        width: 200px;
+    }
+
+}
+
+

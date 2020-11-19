@@ -31,3 +31,21 @@
     font-weight: 800;
     text-transform: uppercase;
 }
+
+@media(max-width : 950px){
+    .pallet__colors{
+        width: 95%;
+    }
+
+}
+
+@media(max-width : 800px){
+    .pallet__colors{
+        display: grid;
+        grid-template-rows: repeat(2,1fr);
+        grid-template-columns: repeat(3,50px);
+        grid-row-gap: 20px;
+        padding: 50px 10px;
+    }
+
+}

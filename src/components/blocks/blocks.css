@@ -11,3 +11,12 @@
     border-radius: 50px;
     margin: 5px;
 }
+
+@media(max-width : 850px){
+    .oval{
+        width: 60px;
+        height: 150px;
+    }
+
+    
+}

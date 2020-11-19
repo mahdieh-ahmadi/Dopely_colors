@@ -5,7 +5,7 @@ import './all.min.css'
 import './footerPallet.css'
 
 const FooterPallet = () => {
-    return <div className = 'footer'>
+    return <div className = 'footer_pallet'>
         <div className = 'footer_big-icon'>
             <Icon class='big_icon'><i className='fas fa-share-alt' /> </Icon>
             <Icon class='big_icon'><i className='fas fa-download' /> </Icon>

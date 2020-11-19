@@ -11,7 +11,7 @@ const Head = () => {
     const bgcolors2 = ['#f9c449' , '#3c591f' , '#0c1d14' , '#ef6222' , '#e3d2b0' , '#faad9d' , '#293e5d']
 
 
-    return <div>
+    return <div className = 'head'>
         <div className='page1__header'>
             <Headers class={'black_head'}>Super Fast </Headers>
             <Headers class={'blue_head'}>Color Explorer </Headers>

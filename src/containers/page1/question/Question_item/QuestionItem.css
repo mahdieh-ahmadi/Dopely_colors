@@ -30,3 +30,16 @@
     background-color: #ccc;
     border-radius: 5px;
 }
+
+@media(max-width : 460px){
+    .QuestionItem{
+        width: 300px;
+    }
+}
+
+@media(max-width : 350px){
+    .QuestionItem{
+        width: 95%;
+        margin: 0 auto;
+    }
+}

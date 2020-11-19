@@ -109,3 +109,38 @@
     background-color: #24cbc7;
     color: #2467cb;
 }
+
+@media(max-width : 850px){
+    .managePalete-palete{
+        font-size: 15px;
+    }
+
+    .managePalete-palete--5{
+        font-size: 8px;
+    }
+}
+
+@media(max-width : 850px){
+    .managePalete--container{
+        width: 85%;
+    }
+    
+}
+
+@media(max-width : 550px){
+    .managePalete-paletes{
+        grid-template-rows: repeat(2,80px) 110px;
+        grid-template-columns: repeat(2,1.5fr)  repeat(2,1fr);
+        grid-gap: 8px;
+    }
+    
+}
+
+@media(max-width : 540px){
+    .managePalete-palete{
+        font-size: 12px;
+    }
+    .managePalete-palete--5{
+        font-size: 6px;
+    }
+}

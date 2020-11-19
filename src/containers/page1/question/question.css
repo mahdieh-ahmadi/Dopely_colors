@@ -10,3 +10,24 @@
     grid-row-gap: 30px;
     margin: 30px auto;
 }
+
+@media(max-width : 950px){
+    .question__item{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .question{
+        text-align: center;
+    }
+
+    .question__head{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}

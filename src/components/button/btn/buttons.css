@@ -30,3 +30,15 @@
     background: linear-gradient(to right,rgb(0, 157, 255), rgb(131, 4, 163));
     font-size: 1em;
 }
+
+@media(max-width : 550px){
+    .btn{
+        padding: 10px 20px;
+    }
+    /* .gredient_brn{
+        grid-template-rows: repeat(3,80px);
+        grid-template-columns: repeat(2,1.5fr)  repeat(2,1fr);
+        grid-gap: 8px;
+    } */
+    
+}

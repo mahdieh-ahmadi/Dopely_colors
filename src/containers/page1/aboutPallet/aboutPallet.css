@@ -41,3 +41,28 @@
     font-size: 14px;
     font-weight: 100;
 }
+
+@media(max-width : 950px){
+    .abourpallet__header{
+        width: 100%;
+    }
+
+}
+
+@media(max-width : 800px){
+    .coler_pollet_generation--paragraph{
+        width: 80%;
+    }
+
+}
+
+@media(max-width : 500px){
+    .coler_pollet_generation--paragraph{
+        width: 95%;
+    }
+    .aboutPallet{
+        width: 95%;
+    }
+}
+
+
