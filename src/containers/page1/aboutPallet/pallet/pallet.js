@@ -24,7 +24,7 @@ const Pallet = () => {
         <div className='pallet__colors'>
             {
                 colors.map(item => {
-                    return <div className='pallet__colors--item'>
+                    return <div className='pallet__colors--item' key={item.firstColor}>
                             <Block class= {'oval'} bgcolor = {item.firstColor}/>
                             <span style={{'color':item.firstColor}}>{item.firstColor}</span>
                             <Circle firstColor={item.firstColor}  

@@ -7,8 +7,8 @@ import Block from '../../../components/blocks/blocks'
 import './head.css'
 
 const Head = () => {
-    const bgcolors = ['#240e8b' , '#00f5d4' , '#f04393' , '#825de7' , '#3a3fc2' , '#d616c2' , '#1ca7ec',
-'#f9c449' , '#3c591f' , '#0c1d14' , '#ef6222' , '#e3d2b0' , '#faad9d' , '#293e5d']
+    const bgcolors1 = ['#240e8b' , '#00f5d4' , '#f04393' , '#825de7' , '#3a3fc2' , '#d616c2' , '#1ca7ec']
+    const bgcolors2 = ['#f9c449' , '#3c591f' , '#0c1d14' , '#ef6222' , '#e3d2b0' , '#faad9d' , '#293e5d']
 
 
     return <div>
@@ -19,11 +19,21 @@ const Head = () => {
         </div>
         
         <div className='main__block'>
+            <div>
             {
-                bgcolors.map(item => {
-                    return <Block bgcolor={item} class='blocks'/>
+                bgcolors1.map(item => {
+                    return <Block bgcolor={item} class='blocks' key={item}/>
                 })
             }
+            </div>
+            <div>
+            {
+                bgcolors2.map(item => {
+                    return <Block bgcolor={item} class='blocks' key={item}/>
+                })
+            }
+            </div>
+             
         </div>
     </div>
 }

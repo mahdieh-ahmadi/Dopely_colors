@@ -35,3 +35,9 @@
 .perpule_head{
     color: rgb(131, 4, 163);
 }
+
+@media(max-width : 1080px){
+    .header{
+        font-size: 35px;
+    }
+}

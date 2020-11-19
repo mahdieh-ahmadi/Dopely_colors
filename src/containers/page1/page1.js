@@ -5,6 +5,7 @@ import AboutPallet from './aboutPallet/aboutPallet'
 import ManagePalete from './managePalete/managePlete'
 import Endless from './EnlessColor/EndlessColor'
 import Question from './question/question'
+import Footer from './footer1/footer1'
 
 import './page1.css'
 
@@ -17,6 +18,7 @@ const Page1 = () => {
         <ManagePalete />
         <Endless />
         <Question />
+        <Footer />
     </div>
 }
 

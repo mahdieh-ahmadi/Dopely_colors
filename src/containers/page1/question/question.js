@@ -29,7 +29,8 @@ const Question = () => {
                 questiondata.map(item => {
                     return <QuestionItem header={item.header}
                             detail={item.detail}
-                            btnTxt={item.btntext}/>
+                            btnTxt={item.btntext}
+                            key={item.detail+Math.random()}/>
                 })
             }
         </div>
