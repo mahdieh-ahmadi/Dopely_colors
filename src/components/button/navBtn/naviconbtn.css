@@ -8,6 +8,10 @@
     outline: none;
 }
 
+.navBtn:hover{
+    color : rgb(0, 157, 255);
+}
+
 .blue_Navbtn{
     color: rgb(0, 157, 255);
 }

@@ -7,6 +7,11 @@
     color: #fff;
     font-family: 'Times New Roman', Times, serif ;
     cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover{
+    box-shadow: 0 3px 5px #999;
 }
 
 .blue_btn{

@@ -10,4 +10,10 @@
     padding: 3px 0;
     color: #aaa;
     font-weight: 300;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.footerblock div:hover{
+    color: #555;
 }
